@@ -1,5 +1,7 @@
+/* Import fonts  */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400");
 
+/* Setup universal settings */
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +9,17 @@
   box-sizing: border-box;
 }
 
+/* Set background colour */
 body {
   background-color: blanchedalmond;
 }
 
+/* Main container div */
 #container {
   width: 100%;
 }
 
+/* Header settings */
 header {
     top: 0;
     background-color: #f5c488;
@@ -24,15 +29,16 @@ header {
     width: 100%
 }
 
+/* H1 settings */
 h1 {
   color: darkblue;
   text-align: center;
-  
   letter-spacing: 1em;
   margin: 0;
 
 }
 
+/* Hightlight first letter on title */
 h1 span {
     color: darkslategray;
     font-size: 150%;
@@ -40,12 +46,13 @@ h1 span {
     }
 }
 
+/* Images container */
 #images {
   width: 100%;
-  
   text-align: center;
 }
 
+/* Individual image settings */
 img {
   width: 370px;
   height: 390px;
@@ -56,10 +63,12 @@ img {
   opacity: 0.9;
 }
 
+/* Change opacity on hover */
 img:hover {
     opacity: 1;
 }
 
+/* Footer settings */
 footer p {
   margin-top: 10px;
   margin-left: 30px;
