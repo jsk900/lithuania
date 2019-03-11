@@ -17,6 +17,7 @@ body {
 /* Main container div */
 #container {
   width: 100%;
+  float: left;
 }
 
 /* Header settings */
@@ -25,7 +26,6 @@ header {
   background-color: #f5c488;
   position: fixed;
   z-index: 1;
-  margin-bottom: 50px;
   width: 100%;
 }
 
@@ -47,6 +47,7 @@ h1 #l {
 #images {
   width: 100%;
   text-align: center;
+  margin-top: 70px;
 }
 
 /* Individual image settings */
@@ -54,21 +55,26 @@ img {
   width: 370px;
   height: 390px;
   float: left;
-  margin: 70px 2% 2px 2.5%;
+  margin: 5px 2% 10px 2.5%;
   border: 2px solid lightslategray;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   box-shadow: 3px 4px 4px darkslategray;
   opacity: 0.9;
 }
 
 /* Change opacity on hover */
 img:hover {
-  opacity: 1;
+  opacity: 1.5;
+  box-shadow: 4px 5px 4px darkslategray;
 }
 
 /* Footer settings */
-footer p {
-  margin-top: 10px;
+
+footer {
+  margin-top: 130px;
   margin-left: 30px;
-  margin-bottom: 10px;
+}
+footer p {
   color: darkblue;
 }
