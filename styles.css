@@ -21,12 +21,12 @@ body {
 
 /* Header settings */
 header {
-    top: 0;
-    background-color: #f5c488;
-    position: fixed;
-    z-index: 1;
-    margin-bottom: 50px;
-    width: 100%
+  top: 0;
+  background-color: #f5c488;
+  position: fixed;
+  z-index: 1;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 /* H1 settings */
@@ -35,15 +35,12 @@ h1 {
   text-align: center;
   letter-spacing: 1em;
   margin: 0;
-
 }
 
-/* Hightlight first letter on title */
+/* Highlight first letter on title */
 h1 span {
-    color: darkslategray;
-    font-size: 150%;
-
-    }
+  color: darkslategray;
+  font-size: 150%;
 }
 
 /* Images container */
@@ -65,7 +62,7 @@ img {
 
 /* Change opacity on hover */
 img:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Footer settings */
