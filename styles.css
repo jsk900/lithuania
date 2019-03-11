@@ -38,7 +38,7 @@ h1 {
 }
 
 /* Highlight first letter on title */
-h1 span {
+h1 #l {
   color: darkslategray;
   font-size: 150%;
 }
