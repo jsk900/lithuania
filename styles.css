@@ -45,7 +45,7 @@ h1 {
 }
 
 /* Highlight first letter on title */
-h1 #l {
+h1::first-letter {
   color: darkslategray;
   font-size: 150%;
 }
