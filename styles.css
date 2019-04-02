@@ -88,8 +88,18 @@ img:hover {
   offset-position: center;
 }
 
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 /* Footer settings */
 footer p {
-  margin: 10px 10px;
+  margin: 10px 45px;
   color: darkblue;
+  font-size: 0.8em;
+  font-weight: 300;
 }
